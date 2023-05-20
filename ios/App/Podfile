@@ -18,6 +18,7 @@ def capacitor_pods
   pod 'CapacitorKeyboard', :path => '../../node_modules/@capacitor/keyboard'
   pod 'CapacitorPreferences', :path => '../../node_modules/@capacitor/preferences'
   pod 'CapacitorStatusBar', :path => '../../node_modules/@capacitor/status-bar'
+  pod 'TextSelectionActionsCapacitorAndroidPlugin', :path => '../../../text-selection-actions-capacitor-android-plugin'
 end
 
 target 'App' do

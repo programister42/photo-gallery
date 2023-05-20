@@ -22,3 +22,6 @@ project(':capacitor-preferences').projectDir = new File('../node_modules/@capaci
 
 include ':capacitor-status-bar'
 project(':capacitor-status-bar').projectDir = new File('../node_modules/@capacitor/status-bar/android')
+
+include ':text-selection-actions-capacitor-android-plugin'
+project(':text-selection-actions-capacitor-android-plugin').projectDir = new File('../../text-selection-actions-capacitor-android-plugin/android')
